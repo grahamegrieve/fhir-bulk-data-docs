@@ -92,6 +92,8 @@ Note: Clients should follow the an [exponential backoff](https://en.wikipedia.or
 
 ```GET [polling content location]```
 
+- if an Accept header is provided, it should have a value of application/json, but the server should respond the same either way
+
 #### Response - In-Progress Status
 
 - HTTP Status Code of ```202 Accepted```
